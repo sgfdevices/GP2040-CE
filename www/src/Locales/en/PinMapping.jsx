@@ -1,11 +1,20 @@
 export default {
 	'header-text': 'Pin Mapping',
-	'sub-header-text': `Here you can configure what pin has what action. If you're unsure what button is connect to what pin, try out the pin viewer.`,
+	'sub-header-text': `Use Pin Viewer to see button to pin connection.`,
 	'alert-text':
 		"Mapping buttons to pins that aren't connected or available can leave the device in non-functional state. To clear the invalid configuration go to the <2>Reset Settings</2> page.",
 	'pin-viewer': 'Pin viewer',
 	'pin-pressed': 'Pressed pin: {{pressedPin}}',
 	'pin-header-label': 'Pin',
+	'profile-label-title': 'Profile name',
+	'profile-label-description':
+		'Max 16 characters. Letters, numbers, and spaces allowed.',
+	'profile-pin-mapping-title': '{{profileLabel}} - Pin Mapping',
+	'profile-label-default': 'Profile {{profileNumber}}',
+	'profile-add-button': '+ Add Profile',
+	'profile-disabled': ' - (Disabled)',
+	'profile-enabled-tooltip':
+		'Disabled profiles will not be available when using hotkeys to change profile.',
 	'profile-pins-warning':
 		'Try to avoid changing the buttons and/or directions used for the switch profile hotkeys. Otherwise, it will be difficult to understand what profile is being selected!',
 	'profile-copy-base': 'Copy base profile',
@@ -15,7 +24,6 @@ export default {
 		invalid: '{{pin}} is invalid for this board',
 		used: '{{pin}} is already assigned to another feature',
 	},
-	'all-capture-button-label': 'Assign Gamepad Pins\u00A0\u00A0🎮',
 	actions: {
 		NONE: 'None',
 		RESERVED: 'Reserved',
@@ -38,6 +46,8 @@ export default {
 		BUTTON_PRESS_A2: 'A2',
 		BUTTON_PRESS_L3: 'L3',
 		BUTTON_PRESS_R3: 'R3',
+		BUTTON_PRESS_A3: 'A3',
+		BUTTON_PRESS_A4: 'A4',
 		BUTTON_PRESS_FN: 'Function',
 		BUTTON_PRESS_DDI_UP: 'DDI Up',
 		BUTTON_PRESS_DDI_DOWN: 'DDI Down',
@@ -59,5 +69,18 @@ export default {
 		BUTTON_PRESS_MACRO_4: 'Macro 4',
 		BUTTON_PRESS_MACRO_5: 'Macro 5',
 		BUTTON_PRESS_MACRO_6: 'Macro 6',
+		CUSTOM_BUTTON_COMBO: 'Assigned to multi mapping',
+		BUTTON_PRESS_E1: 'Extra 1',
+		BUTTON_PRESS_E2: 'Extra 2',
+		BUTTON_PRESS_E3: 'Extra 3',
+		BUTTON_PRESS_E4: 'Extra 4',
+		BUTTON_PRESS_E5: 'Extra 5',
+		BUTTON_PRESS_E6: 'Extra 6',
+		BUTTON_PRESS_E7: 'Extra 7',
+		BUTTON_PRESS_E8: 'Extra 8',
+		BUTTON_PRESS_E9: 'Extra 9',
+		BUTTON_PRESS_E10: 'Extra 10',
+		BUTTON_PRESS_E11: 'Extra 11',
+		BUTTON_PRESS_E12: 'Extra 12',
 	},
 };
